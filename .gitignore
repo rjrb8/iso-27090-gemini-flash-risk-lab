@@ -1,0 +1,11 @@
+dist/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.DS_Store
+report.json
+report.md
+data/Conversacion.original.txt
