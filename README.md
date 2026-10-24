@@ -23,6 +23,9 @@ El laboratorio **no reproduce el bypass**. Convierte la conversación en:
 
 > **Aviso:** este repositorio es material de análisis y formación. No contiene instrucciones operativas para eludir controles de acceso, límites de tasa o términos de servicio. No es asesoría legal.
 
+<img width="2752" height="1536" alt="Flujo_de_análisis_estático" src="https://github.com/user-attachments/assets/e488eda6-5a59-4a1a-a091-7a55c44389fc" />
+
+
 ---
 
 ## 2. Hallazgos principales
@@ -39,6 +42,9 @@ El laboratorio **no reproduce el bypass**. Convierte la conversación en:
 
 **Conclusión:** no hay evidencia de compromiso del modelo base, extracción de pesos, *poisoning* ni *model tampering*. El riesgo principal es de **integridad del comportamiento y cumplimiento**: los guardrails se erosionan a lo largo de varios turnos y el modelo ayuda a eludir controles de un tercero. Es un fallo de robustez y gobernanza, no una vulnerabilidad de memoria del modelo.
 
+<img width="2752" height="1536" alt="Anatomía_de_Jailbreak_Multi-Turno" src="https://github.com/user-attachments/assets/ec481b09-84ac-45ed-b0d5-2cd76ec0e79c" />
+
+
 ---
 
 ## 3. Alcance y supuestos
@@ -49,6 +55,13 @@ El laboratorio **no reproduce el bypass**. Convierte la conversación en:
 - **Evidencia:** un único archivo de conversación (`Conversacion.txt`, 904 líneas, UTF-8 con CRLF, 54.512 bytes) obtenido de `http://192.168.1.106:8080/Conversacion.txt`.
 - **Limitación de la norma:** la referencia local de ISO/IEC 27090 se basa en el borrador de 2025. La edición oficial es **ISO/IEC 27090:2026** (edición 1, 56 páginas, publicada el 2026-10-14). Los números de cláusula deben verificarse contra el texto oficial adquirido.
 - **Naturaleza de la norma:** ISO/IEC 27090 es una guía informativa, no una norma certificable de forma independiente. Se integra en un SGSI ISO/IEC 27001 o en un AIMS ISO/IEC 42001.
+
+<img width="2752" height="1536" alt="Taxonomía_de_amenazas_en_IA" src="https://github.com/user-attachments/assets/5adcea43-23cb-4360-bfb4-648886b90f2a" />
+
+<img width="2752" height="1536" alt="Controles_ISO_IEC_42001_para_IA" src="https://github.com/user-attachments/assets/7834b950-b8d7-40e2-b780-b0871cd66bf6" />
+
+<img width="2752" height="1536" alt="Análisis_de_seguridad_para_LLMs" src="https://github.com/user-attachments/assets/3244d533-7e78-43df-9a10-496a2b6a08fa" />
+
 
 ---
 
